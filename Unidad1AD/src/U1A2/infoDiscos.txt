@@ -1,0 +1,9 @@
+--- LISTANDO UNIDADES ---
+Unidad C:\
+    Espacio libre: 8374652928 bytes (8.0 GB)
+    Espacio ocupado: 18361933824 bytes (18.0 GB)
+    Espacio total: 26736586752 bytes (26.0 GB)
+Unidad D:\
+    Espacio libre: 0 bytes (0.0 GB)
+    Espacio ocupado: 58793984 bytes (0.0 GB)
+    Espacio total: 58793984 bytes (0.0 GB)
