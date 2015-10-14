@@ -31,7 +31,7 @@ public class U1A4Ej1 {
             System.out.println("Menu de Opciones");
             System.out.println("----------------");
             System.out.println("1.-Crear Archivo");
-            System.out.println("2.-A�adir registros");
+            System.out.println("2.-Anhadir registros");
             System.out.println("3.-Consultar un registro");
             System.out.println("4.-Consultar todos los registros");
             System.out.println("5.-Modificar un registro");
@@ -58,10 +58,10 @@ public class U1A4Ej1 {
                     consultarRegistros(f);
                     break;
                 case 5:
-                    modificarRegistro();
+                    modificarRegistro(f);
                     break;
                 case 6:
-                    borrar();
+                    borrar(f);
                     break;
             }
         } while (op != 7);
@@ -87,7 +87,7 @@ public class U1A4Ej1 {
         introducirDatos(f, true);
     }
 
-    private static void consultarRegistro(File f) {
+    private static int consultarRegistro(File f) {
         Scanner sc = new Scanner(System.in);
         int dorsal = 0;
         boolean existe = false;
@@ -108,9 +108,11 @@ public class U1A4Ej1 {
                 while (true) {
                     Corredor corredor = (Corredor) entrada.readObject();
                     if (corredor.getDorsal() == dorsal) {
+                        System.out.println("*******************************");
                         System.out.println("Nombre: " + corredor.getNombre());
                         System.out.println("Dorsal: " + dorsal);
                         System.out.println("Tiempo: " + corredor.getTiempo());
+                        System.out.println("*******************************");
                         existe = true;
                     }
                 }
@@ -126,20 +128,21 @@ public class U1A4Ej1 {
         } catch (IOException ex) {
             Logger.getLogger(U1A4Ej1.class.getName()).log(Level.SEVERE, null, ex);
         }
-
+        return dorsal;
     }
 
     private static void consultarRegistros(File f) {
         Scanner sc = new Scanner(System.in);
-        int dorsal = 0;
         try {
             ObjectInputStream entrada = new ObjectInputStream(new FileInputStream(f));
             try {
                 while (true) {
                     Corredor corredor = (Corredor) entrada.readObject();
+                    System.out.println("*******************************");
                     System.out.println("Nombre: " + corredor.getNombre());
-                    System.out.println("Dorsal: " + dorsal);
+                    System.out.println("Dorsal: " + corredor.getDorsal());
                     System.out.println("Tiempo: " + corredor.getTiempo());
+                    System.out.println("*******************************");
                 }
             } catch (IOException ex) {
                 //System.out.println("Final del archivo");
@@ -153,11 +156,79 @@ public class U1A4Ej1 {
 
     }
 
-    private static void modificarRegistro() {
+    private static void modificarRegistro(File f) {
+        String op, nombre;
+        int tiempo, dorsal;
+        Scanner sc = new Scanner(System.in);
 
+        //dorsal = consultarRegistro(f);
+        System.out.println("Desea Modificar algun campo? (y/n)");
+        System.out.println("Solo puede cambiar el nombre y el tiempo.");
+        op = sc.nextLine();
+        while (!op.matches("[ynYN]")) {
+            System.out.println("Entrada incorrecta.Desea Modificar algun campo? (y/n)");
+            op = sc.nextLine();
+        }
+
+        if (op.matches("[Yy]")) {
+            dorsal = borrar(f);
+            System.out.println("Introduzca el nuevo nombre.");
+            nombre = sc.nextLine();
+            System.out.println("Introduzca el nuevo tiempo.");
+            tiempo = sc.nextInt();
+            sc.nextLine();
+            try {
+                MiObjectOutputStream salida = new MiObjectOutputStream(new FileOutputStream(f, true));
+                salida.writeObject(new Corredor(nombre, dorsal, tiempo));
+            } catch (IOException e) {
+                System.err.println("Error de acceso al fichero");
+            }
+        }
     }
 
-    private static void borrar() {
+    private static int borrar(File f) {
+        int dorsal = 0, tiempo;
+        String nombre;
+        boolean existe;
+        Scanner sc = new Scanner(System.in);
+        do {
+            System.out.println("Escriba el dorsal");
+            try {
+                dorsal = sc.nextInt();
+                sc.nextLine();
+            } catch (InputMismatchException e) {
+                System.out.println("Entrada incorrecta, escriba un entero");
+            }
+        } while (!String.valueOf(dorsal).matches("[0-9]+"));
+        existe = existeDorsal(f, dorsal);
+        if (existe) {
+            try {
+                ObjectInputStream entrada = new ObjectInputStream(new FileInputStream(f));
+                File f2 = new File("C:\\Users\\usuario\\Desktop\\ADAT\\Ejercicios\\Auxiliar");
+                ObjectOutputStream salida = new ObjectOutputStream(new FileOutputStream(f2, false));
+                try {
+                    while (true) {
+                        Corredor corredor = (Corredor) entrada.readObject();
+                        if (corredor.getDorsal() != dorsal) {
+                            salida.writeObject(new Corredor(corredor.getNombre(), corredor.getDorsal(), corredor.getTiempo()));
+                        }
+                    }
+                } catch (IOException ex) {
+                    //System.out.println("Final del archivo");
+                    entrada.close();
+                } catch (ClassNotFoundException ex) {
+                    Logger.getLogger(U1A4Ej1.class.getName()).log(Level.SEVERE, null, ex);
+                }
+                salida.close();
+                f.delete();
+                f2.renameTo(f);
+            } catch (IOException ex) {
+                Logger.getLogger(U1A4Ej1.class.getName()).log(Level.SEVERE, null, ex);
+            }
+        } else {
+            System.out.println("No hay registros con ese dorsal.");
+        }
+        return dorsal;
 
     }
 
@@ -172,17 +243,17 @@ public class U1A4Ej1 {
 
     private static boolean existeDorsal(File f, int dorsal) {
         boolean bool = false;
+        Corredor corredor;
         try {
             ObjectInputStream entrada = new ObjectInputStream(new FileInputStream(f));
             try {
                 while (true) {
-                    Corredor corredor = (Corredor) entrada.readObject();
+                    corredor = (Corredor) entrada.readObject();
                     if (corredor.getDorsal() == dorsal) {
                         bool = true;
                     }
                 }
             } catch (IOException ex) {
-                //System.out.println("Final del archivo");
                 entrada.close();
             } catch (ClassNotFoundException ex) {
                 Logger.getLogger(U1A4Ej1.class.getName()).log(Level.SEVERE, null, ex);
@@ -237,10 +308,10 @@ public class U1A4Ej1 {
         Scanner sc = new Scanner(System.in);
         String op;
         if (f.exists()) {
-            System.out.println("El fichero ya existe. �Sobreescribir? (y/n)");
+            System.out.println("El fichero ya existe. Sobreescribir? (y/n)");
             op = sc.nextLine();
             while (!op.matches("[ynYN]")) {
-                System.out.println("Entrada incorrecta.El fichero ya existe. �Sobreescribir? (y/n)");
+                System.out.println("Entrada incorrecta.El fichero ya existe. Sobreescribir? (y/n)");
                 op = sc.nextLine();
             }
             return op.matches("[yY]");
@@ -248,5 +319,4 @@ public class U1A4Ej1 {
             return true;
         }
     }
-
 }
