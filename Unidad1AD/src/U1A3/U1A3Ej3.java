@@ -40,10 +40,10 @@ public class U1A3Ej3 {
         name = sc.nextLine();
         File f = new File("C:\\Users\\usuario\\Desktop\\ADAT\\Ejercicios\\" + name);
         if (f.exists()) {
-            System.out.println("El fichero ya existe. ¿Sobreescribir? (y/n)");
+            System.out.println("El fichero ya existe. Sobreescribir? (y/n)");
             op = sc.nextLine();
             while (!op.matches("[ynYN]")) {
-                System.out.println("Entrada incorrecta.El fichero ya existe. ¿Sobreescribir? (y/n)");
+                System.out.println("Entrada incorrecta.El fichero ya existe. ï¿½Sobreescribir? (y/n)");
                 op = sc.nextLine();
             }
             if (op.matches("[nN]")) {
