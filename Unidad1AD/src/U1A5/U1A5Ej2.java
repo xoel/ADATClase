@@ -6,7 +6,6 @@
 package U1A5;
 
 import java.io.File;
-import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
@@ -30,7 +29,7 @@ public class U1A5Ej2 {
             f2 = new File("C:\\Users\\usuario\\Desktop\\ADAT\\Ejercicios\\palabras.txt");
             r2 = new FileReader(f2);
             StreamTokenizer tokens = new StreamTokenizer(r);
-            StreamTokenizer tokens2 = new StreamTokenizer(r2);
+            StreamTokenizer tokens2;
             //bucle que recorra cada linea y aumente el contador            
             while (tokens.nextToken() != StreamTokenizer.TT_EOF) {
                 if (tokens.ttype == StreamTokenizer.TT_WORD) {
