@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+
+<Actores>
+    <Actor id="51">
+        <nome>Tyrion Lannister</nome>
+        <sexo>Home</sexo>
+        <DataNacemento formato="dd/mm/aaaa">05/06/0273</DataNacemento>
+    </Actor>
+    <Actor id="139">
+        <nome>Danaerys Targarian</nome>
+        <sexo>muller</sexo>
+        <DataNacemento formato="dd/mm/aaaa">05/06/0285</DataNacemento>
+    </Actor>
+    <Actor id="100">
+        <nome>Jon Snow</nome>
+        <sexo>home</sexo>
+        <DataNacemento formato="dd/mm/aaaa">05/06/0285</DataNacemento>
+    </Actor>
+</Actores>
