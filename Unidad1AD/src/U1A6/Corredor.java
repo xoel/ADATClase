@@ -2,13 +2,13 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package U1A6Michi;
+package U1A6;
 
 import java.io.Serializable;
 
 /**
  *
- * @author mrebopere
+ * @author usuario
  */
 public class Corredor implements Serializable {
     String nombre;

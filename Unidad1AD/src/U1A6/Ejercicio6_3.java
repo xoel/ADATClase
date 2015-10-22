@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package U1A6Michi;
+package U1A6;
 
 import java.io.EOFException;
 import java.io.File;
@@ -16,7 +16,7 @@ import java.util.logging.Logger;
 
 /**
  *
- * @author mrebopere
+ * @author usuario
  */
 public class Ejercicio6_3 {
 

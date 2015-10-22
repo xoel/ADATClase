@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package U1A6Michi;
+package U1A6;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -12,7 +12,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author Miguel
+ * @author usuario
  */
 public class Ejercicio6_2 {
 
