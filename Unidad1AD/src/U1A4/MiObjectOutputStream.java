@@ -5,7 +5,6 @@
  */
 package U1A4;
 import java.io.IOException;
-import java.io.ObjectOutputStream;
 import java.io.OutputStream;
 
 import java.io.ObjectOutputStream;
@@ -24,14 +23,14 @@ public class MiObjectOutputStream extends ObjectOutputStream {
     }
 
     /**
-     * Constructor sin parámetros
+     * Constructor sin parï¿½metros
      */
     protected MiObjectOutputStream() throws IOException, SecurityException {
         super();
     }
 
     /**
-     * Redefinición del método de escribir la cabecera para que no haga nada.
+     * Redefiniciï¿½n del mï¿½todo de escribir la cabecera para que no haga nada.
      */
     @Override
     protected void writeStreamHeader() throws IOException {

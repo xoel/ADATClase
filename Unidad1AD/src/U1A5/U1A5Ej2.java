@@ -21,7 +21,7 @@ public class U1A5Ej2 {
         FileReader r, r2;
         FileWriter salida;
         File f, f2;
-        int numPalabras=0;
+        int numPalabras;
         try {
             salida = new FileWriter("C:\\Users\\usuario\\Desktop\\ADAT\\Ejercicios\\ContadorPalabras.txt", false);
             f = new File("C:\\Users\\usuario\\Desktop\\ADAT\\Ejercicios\\palabrasClave.txt");
