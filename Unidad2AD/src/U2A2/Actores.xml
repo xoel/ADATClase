@@ -5,8 +5,9 @@ To change this template file, choose Tools | Templates
 and open the template in the editor.
 -->
 
-<!DOCTYPE Actores SYSTEM "DTDEj1.dtd">
-<Actores>
+<!--<!DOCTYPE Actores SYSTEM "DTDEj2.dtd">-->
+<Actores xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="ActoresSchema.xsd">
     <Actor id="51">
         <nome>Tyrion Lannister</nome>
         <sexo>Home</sexo>
@@ -21,5 +22,15 @@ and open the template in the editor.
         <nome>Jon Snow</nome>
         <sexo>home</sexo>
         <DataNacemento formato="dd/mm/aaaa">05/06/0285</DataNacemento>
+    </Actor>
+    <Actor id="103">
+        <nome>Ser Barristan</nome>
+        <sexo>home</sexo>
+        <DataNacemento formato="dd/mm/aaaa">05/06/0240</DataNacemento>
+    </Actor>
+    <Actor id="104">
+        <nome>Aegis Targarian</nome>
+        <sexo>home</sexo>
+        <DataNacemento formato="dd/mm/aaaa">05/06/0001</DataNacemento>
     </Actor>
 </Actores>
