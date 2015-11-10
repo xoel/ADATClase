@@ -17,13 +17,13 @@ import org.xml.sax.helpers.XMLReaderFactory;
  * @author Xvazqdios
  */
 public class U2A2Ej1 {
-
     // CARGAMOS EL XML
     private final static String XMLDocument = "C:\\Users\\usuario\\Documents\\NetBeansProjects\\ADATClase\\ADATClase\\Unidad2AD\\src\\U2A2\\Actores.xml";
     //Características del analizador
     private static final String val = "http://xml.org/sax/features/validation";
     private static final String namespaces = "http://xml.org/sax/features/namespaces";
     private static final String esquemas = "http://apache.org/xml/features/validation/schema";
+
     public static void main(String[] args) {
         // Creamos la factoria de parseadores con sus caracteristicas por defecto
         XMLReader analizador;
@@ -52,8 +52,8 @@ public class U2A2Ej1 {
             //le metemos el manejador de errores
             analizador.setErrorHandler(new SimpleErrorHandler());
             //Procesamos el documento
-            analizador.parse(new InputSource(new FileInputStream(XMLDocument)));     
-            
+            analizador.parse(new InputSource(new FileInputStream(XMLDocument)));
+
         } catch (SAXException ex) {
             System.err.println(ex.getMessage());
         } catch (IOException ex) {

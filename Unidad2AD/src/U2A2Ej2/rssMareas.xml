@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:Mareas="Mareas" xmlns:georss="http://www.georss.org/georss" version="2.0">
+  <channel>
+    <title>Táboa de mareas</title>
+    <link>http://www.meteogalicia.es/web/predicion/maritima/mareasIndex.action?request_locale=gl</link>
+    <description>Mareas amosadas en horario local</description>
+    <item>
+      <title>Mareas en A Coruña para  xoves 05 de novembro</title>
+      <link>http://www.meteogalicia.es/web/predicion/maritima/mareasIndex.action?request_locale=gl&amp;idPorto=1&amp;data=05/11/2015</link>
+      <description>&lt;div  id="divestActual" class="datos"&gt;&lt;table class="tableloc"  width=250 border=1 bordercolor="#cfcfcf"&gt;&lt;thead&gt;&lt;th&gt;Estado&lt;/th&gt;&lt;th&gt;Hora&lt;/th&gt;&lt;th&gt;Altura&lt;/th&gt;&lt;/thead&gt;&lt;tr&gt;&lt;td&gt;Baixamar&lt;/td&gt;&lt;td&gt;05:22&lt;/td&gt;&lt;td&gt;1,6&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Preamar&lt;/td&gt;&lt;td&gt;11:49&lt;/td&gt;&lt;td&gt;3,1&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Baixamar&lt;/td&gt;&lt;td&gt;18:12&lt;/td&gt;&lt;td&gt;1,4&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;&lt;br/&gt;</description>
+      <pubDate>Wed, 04 Nov 2015 23:00:00 GMT</pubDate>
+      <guid>http://www.meteogalicia.es/web/predicion/maritima/mareasIndex.action?request_locale=gl&amp;idPorto=1&amp;data=05/11/2015</guid>
+      <dc:date>2015-11-04T23:00:00Z</dc:date>
+      <georss:point>43.349998474121094 -8.383333206176758</georss:point>
+      <Mareas:nomePorto descricion="Porto">A Coruña</Mareas:nomePorto>
+      <Mareas:idPorto descricion="IdPorto">1</Mareas:idPorto>
+      <Mareas:idPortoRef descricion="IdPortoRef">1</Mareas:idPortoRef>
+      <Mareas:dataPredicion formato="dd/MM/yyyy">05/11/2015</Mareas:dataPredicion>
+      <Mareas:mareas id="0" estado="Baixamar" hora="05:22" altura="1,6" idTipoMarea="0" />
+      <Mareas:mareas id="1" estado="Preamar" hora="11:49" altura="3,1" idTipoMarea="1" />
+      <Mareas:mareas id="2" estado="Baixamar" hora="18:12" altura="1,4" idTipoMarea="0" />
+    </item>
+    <item>
+      <title>Mareas en Xixón para  xoves 05 de novembro</title>
+      <link>http://www.meteogalicia.es/web/predicion/maritima/mareasIndex.action?request_locale=gl&amp;idPorto=2&amp;data=05/11/2015</link>
+      <description>&lt;div  id="divestActual" class="datos"&gt;&lt;table class="tableloc"  width=250 border=1 bordercolor="#cfcfcf"&gt;&lt;thead&gt;&lt;th&gt;Estado&lt;/th&gt;&lt;th&gt;Hora&lt;/th&gt;&lt;th&gt;Altura&lt;/th&gt;&lt;/thead&gt;&lt;tr&gt;&lt;td&gt;Baixamar&lt;/td&gt;&lt;td&gt;05:11&lt;/td&gt;&lt;td&gt;1,7&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Preamar&lt;/td&gt;&lt;td&gt;11:33&lt;/td&gt;&lt;td&gt;3,4&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Baixamar&lt;/td&gt;&lt;td&gt;17:59&lt;/td&gt;&lt;td&gt;1,6&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;&lt;br/&gt;</description>
+      <pubDate>Wed, 04 Nov 2015 23:00:00 GMT</pubDate>
+      <guid>http://www.meteogalicia.es/web/predicion/maritima/mareasIndex.action?request_locale=gl&amp;idPorto=2&amp;data=05/11/2015</guid>
+      <dc:date>2015-11-04T23:00:00Z</dc:date>
+      <georss:point>43.54999923706055 -5.683330059051514</georss:point>
+      <Mareas:nomePorto descricion="Porto">Xixón</Mareas:nomePorto>
+      <Mareas:idPorto descricion="IdPorto">2</Mareas:idPorto>
+      <Mareas:idPortoRef descricion="IdPortoRef">2</Mareas:idPortoRef>
+      <Mareas:dataPredicion formato="dd/MM/yyyy">05/11/2015</Mareas:dataPredicion>
+      <Mareas:mareas id="0" estado="Baixamar" hora="05:11" altura="1,7" idTipoMarea="0" />
+      <Mareas:mareas id="1" estado="Preamar" hora="11:33" altura="3,4" idTipoMarea="1" />
+      <Mareas:mareas id="2" estado="Baixamar" hora="17:59" altura="1,6" idTipoMarea="0" />
+    </item>
+    <item>
+      <title>Mareas en Vigo para  xoves 05 de novembro</title>
+      <link>http://www.meteogalicia.es/web/predicion/maritima/mareasIndex.action?request_locale=gl&amp;idPorto=3&amp;data=05/11/2015</link>
+      <description>&lt;div  id="divestActual" class="datos"&gt;&lt;table class="tableloc"  width=250 border=1 bordercolor="#cfcfcf"&gt;&lt;thead&gt;&lt;th&gt;Estado&lt;/th&gt;&lt;th&gt;Hora&lt;/th&gt;&lt;th&gt;Altura&lt;/th&gt;&lt;/thead&gt;&lt;tr&gt;&lt;td&gt;Baixamar&lt;/td&gt;&lt;td&gt;05:08&lt;/td&gt;&lt;td&gt;1,6&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Preamar&lt;/td&gt;&lt;td&gt;11:29&lt;/td&gt;&lt;td&gt;3,0&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Baixamar&lt;/td&gt;&lt;td&gt;17:57&lt;/td&gt;&lt;td&gt;1,4&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;&lt;br/&gt;</description>
+      <pubDate>Wed, 04 Nov 2015 23:00:00 GMT</pubDate>
+      <guid>http://www.meteogalicia.es/web/predicion/maritima/mareasIndex.action?request_locale=gl&amp;idPorto=3&amp;data=05/11/2015</guid>
+      <dc:date>2015-11-04T23:00:00Z</dc:date>
+      <georss:point>42.233333587646484 -8.716667175292969</georss:point>
+      <Mareas:nomePorto descricion="Porto">Vigo</Mareas:nomePorto>
+      <Mareas:idPorto descricion="IdPorto">3</Mareas:idPorto>
+      <Mareas:idPortoRef descricion="IdPortoRef">3</Mareas:idPortoRef>
+      <Mareas:dataPredicion formato="dd/MM/yyyy">05/11/2015</Mareas:dataPredicion>
+      <Mareas:mareas id="0" estado="Baixamar" hora="05:08" altura="1,6" idTipoMarea="0" />
+      <Mareas:mareas id="1" estado="Preamar" hora="11:29" altura="3,0" idTipoMarea="1" />
+      <Mareas:mareas id="2" estado="Baixamar" hora="17:57" altura="1,4" idTipoMarea="0" />
+    </item>
+    <item>
+      <title>Mareas en Vilagarcía para  xoves 05 de novembro</title>
+      <link>http://www.meteogalicia.es/web/predicion/maritima/mareasIndex.action?request_locale=gl&amp;idPorto=4&amp;data=05/11/2015</link>
+      <description>&lt;div  id="divestActual" class="datos"&gt;&lt;table class="tableloc"  width=250 border=1 bordercolor="#cfcfcf"&gt;&lt;thead&gt;&lt;th&gt;Estado&lt;/th&gt;&lt;th&gt;Hora&lt;/th&gt;&lt;th&gt;Altura&lt;/th&gt;&lt;/thead&gt;&lt;tr&gt;&lt;td&gt;Baixamar&lt;/td&gt;&lt;td&gt;05:12&lt;/td&gt;&lt;td&gt;1,5&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Preamar&lt;/td&gt;&lt;td&gt;11:33&lt;/td&gt;&lt;td&gt;2,9&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Baixamar&lt;/td&gt;&lt;td&gt;17:58&lt;/td&gt;&lt;td&gt;1,3&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;&lt;br/&gt;</description>
+      <pubDate>Wed, 04 Nov 2015 23:00:00 GMT</pubDate>
+      <guid>http://www.meteogalicia.es/web/predicion/maritima/mareasIndex.action?request_locale=gl&amp;idPorto=4&amp;data=05/11/2015</guid>
+      <dc:date>2015-11-04T23:00:00Z</dc:date>
+      <georss:point>42.58333206176758 -8.766667366027832</georss:point>
+      <Mareas:nomePorto descricion="Porto">Vilagarcía</Mareas:nomePorto>
+      <Mareas:idPorto descricion="IdPorto">4</Mareas:idPorto>
+      <Mareas:idPortoRef descricion="IdPortoRef">4</Mareas:idPortoRef>
+      <Mareas:dataPredicion formato="dd/MM/yyyy">05/11/2015</Mareas:dataPredicion>
+      <Mareas:mareas id="0" estado="Baixamar" hora="05:12" altura="1,5" idTipoMarea="0" />
+      <Mareas:mareas id="1" estado="Preamar" hora="11:33" altura="2,9" idTipoMarea="1" />
+      <Mareas:mareas id="2" estado="Baixamar" hora="17:58" altura="1,3" idTipoMarea="0" />
+    </item>
+    <item>
+      <title>Mareas en Ría de Foz para  xoves 05 de novembro</title>
+      <link>http://www.meteogalicia.es/web/predicion/maritima/mareasIndex.action?request_locale=gl&amp;idPorto=6&amp;data=05/11/2015</link>
+      <description>&lt;div  id="divestActual" class="datos"&gt;&lt;table class="tableloc"  width=250 border=1 bordercolor="#cfcfcf"&gt;&lt;thead&gt;&lt;th&gt;Estado&lt;/th&gt;&lt;th&gt;Hora&lt;/th&gt;&lt;th&gt;Altura&lt;/th&gt;&lt;/thead&gt;&lt;tr&gt;&lt;td&gt;Baixamar&lt;/td&gt;&lt;td&gt;05:20&lt;/td&gt;&lt;td&gt;1,6&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Preamar&lt;/td&gt;&lt;td&gt;11:42&lt;/td&gt;&lt;td&gt;3,2&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Baixamar&lt;/td&gt;&lt;td&gt;18:07&lt;/td&gt;&lt;td&gt;1,5&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;&lt;br/&gt;</description>
+      <pubDate>Wed, 04 Nov 2015 23:00:00 GMT</pubDate>
+      <guid>http://www.meteogalicia.es/web/predicion/maritima/mareasIndex.action?request_locale=gl&amp;idPorto=6&amp;data=05/11/2015</guid>
+      <dc:date>2015-11-04T23:00:00Z</dc:date>
+      <georss:point>43.56666564941406 -7.233333110809326</georss:point>
+      <Mareas:nomePorto descricion="Porto">Ría de Foz</Mareas:nomePorto>
+      <Mareas:idPorto descricion="IdPorto">6</Mareas:idPorto>
+      <Mareas:idPortoRef descricion="IdPortoRef">1</Mareas:idPortoRef>
+      <Mareas:dataPredicion formato="dd/MM/yyyy">05/11/2015</Mareas:dataPredicion>
+      <Mareas:mareas id="0" estado="Baixamar" hora="05:20" altura="1,6" idTipoMarea="0" />
+      <Mareas:mareas id="1" estado="Preamar" hora="11:42" altura="3,2" idTipoMarea="1" />
+      <Mareas:mareas id="2" estado="Baixamar" hora="18:07" altura="1,5" idTipoMarea="0" />
+    </item>
+    <item>
+      <title>Mareas en Corcubión para  xoves 05 de novembro</title>
+      <link>http://www.meteogalicia.es/web/predicion/maritima/mareasIndex.action?request_locale=gl&amp;idPorto=7&amp;data=05/11/2015</link>
+      <description>&lt;div  id="divestActual" class="datos"&gt;&lt;table class="tableloc"  width=250 border=1 bordercolor="#cfcfcf"&gt;&lt;thead&gt;&lt;th&gt;Estado&lt;/th&gt;&lt;th&gt;Hora&lt;/th&gt;&lt;th&gt;Altura&lt;/th&gt;&lt;/thead&gt;&lt;tr&gt;&lt;td&gt;Baixamar&lt;/td&gt;&lt;td&gt;05:16&lt;/td&gt;&lt;td&gt;1,5&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Preamar&lt;/td&gt;&lt;td&gt;11:40&lt;/td&gt;&lt;td&gt;3,0&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Baixamar&lt;/td&gt;&lt;td&gt;18:05&lt;/td&gt;&lt;td&gt;1,3&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;&lt;br/&gt;</description>
+      <pubDate>Wed, 04 Nov 2015 23:00:00 GMT</pubDate>
+      <guid>http://www.meteogalicia.es/web/predicion/maritima/mareasIndex.action?request_locale=gl&amp;idPorto=7&amp;data=05/11/2015</guid>
+      <dc:date>2015-11-04T23:00:00Z</dc:date>
+      <georss:point>42.95000076293945 -9.199999809265137</georss:point>
+      <Mareas:nomePorto descricion="Porto">Corcubión</Mareas:nomePorto>
+      <Mareas:idPorto descricion="IdPorto">7</Mareas:idPorto>
+      <Mareas:idPortoRef descricion="IdPortoRef">4</Mareas:idPortoRef>
+      <Mareas:dataPredicion formato="dd/MM/yyyy">05/11/2015</Mareas:dataPredicion>
+      <Mareas:mareas id="0" estado="Baixamar" hora="05:16" altura="1,5" idTipoMarea="0" />
+      <Mareas:mareas id="1" estado="Preamar" hora="11:40" altura="3,0" idTipoMarea="1" />
+      <Mareas:mareas id="2" estado="Baixamar" hora="18:05" altura="1,3" idTipoMarea="0" />
+    </item>
+    <item>
+      <title>Mareas en Ría de Camariñas para  xoves 05 de novembro</title>
+      <link>http://www.meteogalicia.es/web/predicion/maritima/mareasIndex.action?request_locale=gl&amp;idPorto=8&amp;data=05/11/2015</link>
+      <description>&lt;div  id="divestActual" class="datos"&gt;&lt;table class="tableloc"  width=250 border=1 bordercolor="#cfcfcf"&gt;&lt;thead&gt;&lt;th&gt;Estado&lt;/th&gt;&lt;th&gt;Hora&lt;/th&gt;&lt;th&gt;Altura&lt;/th&gt;&lt;/thead&gt;&lt;tr&gt;&lt;td&gt;Baixamar&lt;/td&gt;&lt;td&gt;05:16&lt;/td&gt;&lt;td&gt;1,6&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Preamar&lt;/td&gt;&lt;td&gt;11:40&lt;/td&gt;&lt;td&gt;3,0&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Baixamar&lt;/td&gt;&lt;td&gt;18:05&lt;/td&gt;&lt;td&gt;1,4&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;&lt;br/&gt;</description>
+      <pubDate>Wed, 04 Nov 2015 23:00:00 GMT</pubDate>
+      <guid>http://www.meteogalicia.es/web/predicion/maritima/mareasIndex.action?request_locale=gl&amp;idPorto=8&amp;data=05/11/2015</guid>
+      <dc:date>2015-11-04T23:00:00Z</dc:date>
+      <georss:point>43.133331298828125 -9.183333396911621</georss:point>
+      <Mareas:nomePorto descricion="Porto">Ría de Camariñas</Mareas:nomePorto>
+      <Mareas:idPorto descricion="IdPorto">8</Mareas:idPorto>
+      <Mareas:idPortoRef descricion="IdPortoRef">4</Mareas:idPortoRef>
+      <Mareas:dataPredicion formato="dd/MM/yyyy">05/11/2015</Mareas:dataPredicion>
+      <Mareas:mareas id="0" estado="Baixamar" hora="05:16" altura="1,6" idTipoMarea="0" />
+      <Mareas:mareas id="1" estado="Preamar" hora="11:40" altura="3,0" idTipoMarea="1" />
+      <Mareas:mareas id="2" estado="Baixamar" hora="18:05" altura="1,4" idTipoMarea="0" />
+    </item>
+    <item>
+      <title>Mareas en Ría de Corme para  xoves 05 de novembro</title>
+      <link>http://www.meteogalicia.es/web/predicion/maritima/mareasIndex.action?request_locale=gl&amp;idPorto=9&amp;data=05/11/2015</link>
+      <description>&lt;div  id="divestActual" class="datos"&gt;&lt;table class="tableloc"  width=250 border=1 bordercolor="#cfcfcf"&gt;&lt;thead&gt;&lt;th&gt;Estado&lt;/th&gt;&lt;th&gt;Hora&lt;/th&gt;&lt;th&gt;Altura&lt;/th&gt;&lt;/thead&gt;&lt;tr&gt;&lt;td&gt;Baixamar&lt;/td&gt;&lt;td&gt;05:20&lt;/td&gt;&lt;td&gt;1,6&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Preamar&lt;/td&gt;&lt;td&gt;11:42&lt;/td&gt;&lt;td&gt;3,0&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Baixamar&lt;/td&gt;&lt;td&gt;18:07&lt;/td&gt;&lt;td&gt;1,4&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;&lt;br/&gt;</description>
+      <pubDate>Wed, 04 Nov 2015 23:00:00 GMT</pubDate>
+      <guid>http://www.meteogalicia.es/web/predicion/maritima/mareasIndex.action?request_locale=gl&amp;idPorto=9&amp;data=05/11/2015</guid>
+      <dc:date>2015-11-04T23:00:00Z</dc:date>
+      <georss:point>43.233333587646484 -9.0</georss:point>
+      <Mareas:nomePorto descricion="Porto">Ría de Corme</Mareas:nomePorto>
+      <Mareas:idPorto descricion="IdPorto">9</Mareas:idPorto>
+      <Mareas:idPortoRef descricion="IdPortoRef">4</Mareas:idPortoRef>
+      <Mareas:dataPredicion formato="dd/MM/yyyy">05/11/2015</Mareas:dataPredicion>
+      <Mareas:mareas id="0" estado="Baixamar" hora="05:20" altura="1,6" idTipoMarea="0" />
+      <Mareas:mareas id="1" estado="Preamar" hora="11:42" altura="3,0" idTipoMarea="1" />
+      <Mareas:mareas id="2" estado="Baixamar" hora="18:07" altura="1,4" idTipoMarea="0" />
+    </item>
+    <item>
+      <title>Mareas en A Guarda para  xoves 05 de novembro</title>
+      <link>http://www.meteogalicia.es/web/predicion/maritima/mareasIndex.action?request_locale=gl&amp;idPorto=10&amp;data=05/11/2015</link>
+      <description>&lt;div  id="divestActual" class="datos"&gt;&lt;table class="tableloc"  width=250 border=1 bordercolor="#cfcfcf"&gt;&lt;thead&gt;&lt;th&gt;Estado&lt;/th&gt;&lt;th&gt;Hora&lt;/th&gt;&lt;th&gt;Altura&lt;/th&gt;&lt;/thead&gt;&lt;tr&gt;&lt;td&gt;Baixamar&lt;/td&gt;&lt;td&gt;05:12&lt;/td&gt;&lt;td&gt;1,4&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Preamar&lt;/td&gt;&lt;td&gt;11:30&lt;/td&gt;&lt;td&gt;2,7&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Baixamar&lt;/td&gt;&lt;td&gt;18:04&lt;/td&gt;&lt;td&gt;1,1&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;&lt;br/&gt;</description>
+      <pubDate>Wed, 04 Nov 2015 23:00:00 GMT</pubDate>
+      <guid>http://www.meteogalicia.es/web/predicion/maritima/mareasIndex.action?request_locale=gl&amp;idPorto=10&amp;data=05/11/2015</guid>
+      <dc:date>2015-11-04T23:00:00Z</dc:date>
+      <georss:point>41.900001525878906 -8.883333206176758</georss:point>
+      <Mareas:nomePorto descricion="Porto">A Guarda</Mareas:nomePorto>
+      <Mareas:idPorto descricion="IdPorto">10</Mareas:idPorto>
+      <Mareas:idPortoRef descricion="IdPortoRef">10</Mareas:idPortoRef>
+      <Mareas:dataPredicion formato="dd/MM/yyyy">05/11/2015</Mareas:dataPredicion>
+      <Mareas:mareas id="0" estado="Baixamar" hora="05:12" altura="1,4" idTipoMarea="0" />
+      <Mareas:mareas id="1" estado="Preamar" hora="11:30" altura="2,7" idTipoMarea="1" />
+      <Mareas:mareas id="2" estado="Baixamar" hora="18:04" altura="1,1" idTipoMarea="0" />
+    </item>
+    <item>
+      <title>Mareas en Ribeira para  xoves 05 de novembro</title>
+      <link>http://www.meteogalicia.es/web/predicion/maritima/mareasIndex.action?request_locale=gl&amp;idPorto=11&amp;data=05/11/2015</link>
+      <description>&lt;div  id="divestActual" class="datos"&gt;&lt;table class="tableloc"  width=250 border=1 bordercolor="#cfcfcf"&gt;&lt;thead&gt;&lt;th&gt;Estado&lt;/th&gt;&lt;th&gt;Hora&lt;/th&gt;&lt;th&gt;Altura&lt;/th&gt;&lt;/thead&gt;&lt;tr&gt;&lt;td&gt;Baixamar&lt;/td&gt;&lt;td&gt;05:14&lt;/td&gt;&lt;td&gt;1,5&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Preamar&lt;/td&gt;&lt;td&gt;11:34&lt;/td&gt;&lt;td&gt;2,9&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Baixamar&lt;/td&gt;&lt;td&gt;18:03&lt;/td&gt;&lt;td&gt;1,3&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;&lt;br/&gt;</description>
+      <pubDate>Wed, 04 Nov 2015 23:00:00 GMT</pubDate>
+      <guid>http://www.meteogalicia.es/web/predicion/maritima/mareasIndex.action?request_locale=gl&amp;idPorto=11&amp;data=05/11/2015</guid>
+      <dc:date>2015-11-04T23:00:00Z</dc:date>
+      <georss:point>42.54999923706055 -8.983332633972168</georss:point>
+      <Mareas:nomePorto descricion="Porto">Ribeira</Mareas:nomePorto>
+      <Mareas:idPorto descricion="IdPorto">11</Mareas:idPorto>
+      <Mareas:idPortoRef descricion="IdPortoRef">4</Mareas:idPortoRef>
+      <Mareas:dataPredicion formato="dd/MM/yyyy">05/11/2015</Mareas:dataPredicion>
+      <Mareas:mareas id="0" estado="Baixamar" hora="05:14" altura="1,5" idTipoMarea="0" />
+      <Mareas:mareas id="1" estado="Preamar" hora="11:34" altura="2,9" idTipoMarea="1" />
+      <Mareas:mareas id="2" estado="Baixamar" hora="18:03" altura="1,3" idTipoMarea="0" />
+    </item>
+    <item>
+      <title>Mareas en Muros para  xoves 05 de novembro</title>
+      <link>http://www.meteogalicia.es/web/predicion/maritima/mareasIndex.action?request_locale=gl&amp;idPorto=12&amp;data=05/11/2015</link>
+      <description>&lt;div  id="divestActual" class="datos"&gt;&lt;table class="tableloc"  width=250 border=1 bordercolor="#cfcfcf"&gt;&lt;thead&gt;&lt;th&gt;Estado&lt;/th&gt;&lt;th&gt;Hora&lt;/th&gt;&lt;th&gt;Altura&lt;/th&gt;&lt;/thead&gt;&lt;tr&gt;&lt;td&gt;Baixamar&lt;/td&gt;&lt;td&gt;05:14&lt;/td&gt;&lt;td&gt;1,5&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Preamar&lt;/td&gt;&lt;td&gt;11:36&lt;/td&gt;&lt;td&gt;2,9&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Baixamar&lt;/td&gt;&lt;td&gt;18:00&lt;/td&gt;&lt;td&gt;1,3&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;&lt;br/&gt;</description>
+      <pubDate>Wed, 04 Nov 2015 23:00:00 GMT</pubDate>
+      <guid>http://www.meteogalicia.es/web/predicion/maritima/mareasIndex.action?request_locale=gl&amp;idPorto=12&amp;data=05/11/2015</guid>
+      <dc:date>2015-11-04T23:00:00Z</dc:date>
+      <georss:point>42.766666412353516 -9.050000190734863</georss:point>
+      <Mareas:nomePorto descricion="Porto">Muros</Mareas:nomePorto>
+      <Mareas:idPorto descricion="IdPorto">12</Mareas:idPorto>
+      <Mareas:idPortoRef descricion="IdPortoRef">4</Mareas:idPortoRef>
+      <Mareas:dataPredicion formato="dd/MM/yyyy">05/11/2015</Mareas:dataPredicion>
+      <Mareas:mareas id="0" estado="Baixamar" hora="05:14" altura="1,5" idTipoMarea="0" />
+      <Mareas:mareas id="1" estado="Preamar" hora="11:36" altura="2,9" idTipoMarea="1" />
+      <Mareas:mareas id="2" estado="Baixamar" hora="18:00" altura="1,3" idTipoMarea="0" />
+    </item>
+    <item>
+      <title>Mareas en Pontevedra para  xoves 05 de novembro</title>
+      <link>http://www.meteogalicia.es/web/predicion/maritima/mareasIndex.action?request_locale=gl&amp;idPorto=13&amp;data=05/11/2015</link>
+      <description>&lt;div  id="divestActual" class="datos"&gt;&lt;table class="tableloc"  width=250 border=1 bordercolor="#cfcfcf"&gt;&lt;thead&gt;&lt;th&gt;Estado&lt;/th&gt;&lt;th&gt;Hora&lt;/th&gt;&lt;th&gt;Altura&lt;/th&gt;&lt;/thead&gt;&lt;tr&gt;&lt;td&gt;Baixamar&lt;/td&gt;&lt;td&gt;05:09&lt;/td&gt;&lt;td&gt;1,5&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Preamar&lt;/td&gt;&lt;td&gt;11:32&lt;/td&gt;&lt;td&gt;2,9&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Baixamar&lt;/td&gt;&lt;td&gt;17:56&lt;/td&gt;&lt;td&gt;1,3&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;&lt;br/&gt;</description>
+      <pubDate>Wed, 04 Nov 2015 23:00:00 GMT</pubDate>
+      <guid>http://www.meteogalicia.es/web/predicion/maritima/mareasIndex.action?request_locale=gl&amp;idPorto=13&amp;data=05/11/2015</guid>
+      <dc:date>2015-11-04T23:00:00Z</dc:date>
+      <georss:point>42.43333435058594 -8.649999618530273</georss:point>
+      <Mareas:nomePorto descricion="Porto">Pontevedra</Mareas:nomePorto>
+      <Mareas:idPorto descricion="IdPorto">13</Mareas:idPorto>
+      <Mareas:idPortoRef descricion="IdPortoRef">4</Mareas:idPortoRef>
+      <Mareas:dataPredicion formato="dd/MM/yyyy">05/11/2015</Mareas:dataPredicion>
+      <Mareas:mareas id="0" estado="Baixamar" hora="05:09" altura="1,5" idTipoMarea="0" />
+      <Mareas:mareas id="1" estado="Preamar" hora="11:32" altura="2,9" idTipoMarea="1" />
+      <Mareas:mareas id="2" estado="Baixamar" hora="17:56" altura="1,3" idTipoMarea="0" />
+    </item>
+    <item>
+      <title>Mareas en Ferrol Porto Exterior para  xoves 05 de novembro</title>
+      <link>http://www.meteogalicia.es/web/predicion/maritima/mareasIndex.action?request_locale=gl&amp;idPorto=14&amp;data=05/11/2015</link>
+      <description>&lt;div  id="divestActual" class="datos"&gt;&lt;table class="tableloc"  width=250 border=1 bordercolor="#cfcfcf"&gt;&lt;thead&gt;&lt;th&gt;Estado&lt;/th&gt;&lt;th&gt;Hora&lt;/th&gt;&lt;th&gt;Altura&lt;/th&gt;&lt;/thead&gt;&lt;tr&gt;&lt;td&gt;Baixamar&lt;/td&gt;&lt;td&gt;05:24&lt;/td&gt;&lt;td&gt;1,5&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Preamar&lt;/td&gt;&lt;td&gt;11:50&lt;/td&gt;&lt;td&gt;3,0&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Baixamar&lt;/td&gt;&lt;td&gt;18:13&lt;/td&gt;&lt;td&gt;1,4&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;&lt;br/&gt;</description>
+      <pubDate>Wed, 04 Nov 2015 23:00:00 GMT</pubDate>
+      <guid>http://www.meteogalicia.es/web/predicion/maritima/mareasIndex.action?request_locale=gl&amp;idPorto=14&amp;data=05/11/2015</guid>
+      <dc:date>2015-11-04T23:00:00Z</dc:date>
+      <georss:point>43.46277618408203 -8.325555801391602</georss:point>
+      <Mareas:nomePorto descricion="Porto">Ferrol Porto Exterior</Mareas:nomePorto>
+      <Mareas:idPorto descricion="IdPorto">14</Mareas:idPorto>
+      <Mareas:idPortoRef descricion="IdPortoRef">14</Mareas:idPortoRef>
+      <Mareas:dataPredicion formato="dd/MM/yyyy">05/11/2015</Mareas:dataPredicion>
+      <Mareas:mareas id="0" estado="Baixamar" hora="05:24" altura="1,5" idTipoMarea="0" />
+      <Mareas:mareas id="1" estado="Preamar" hora="11:50" altura="3,0" idTipoMarea="1" />
+      <Mareas:mareas id="2" estado="Baixamar" hora="18:13" altura="1,4" idTipoMarea="0" />
+    </item>
+    <item>
+      <title>Mareas en Marín para  xoves 05 de novembro</title>
+      <link>http://www.meteogalicia.es/web/predicion/maritima/mareasIndex.action?request_locale=gl&amp;idPorto=15&amp;data=05/11/2015</link>
+      <description>&lt;div  id="divestActual" class="datos"&gt;&lt;table class="tableloc"  width=250 border=1 bordercolor="#cfcfcf"&gt;&lt;thead&gt;&lt;th&gt;Estado&lt;/th&gt;&lt;th&gt;Hora&lt;/th&gt;&lt;th&gt;Altura&lt;/th&gt;&lt;/thead&gt;&lt;tr&gt;&lt;td&gt;Baixamar&lt;/td&gt;&lt;td&gt;05:08&lt;/td&gt;&lt;td&gt;1,4&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Preamar&lt;/td&gt;&lt;td&gt;11:31&lt;/td&gt;&lt;td&gt;2,8&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Baixamar&lt;/td&gt;&lt;td&gt;17:58&lt;/td&gt;&lt;td&gt;1,2&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;&lt;br/&gt;</description>
+      <pubDate>Wed, 04 Nov 2015 23:00:00 GMT</pubDate>
+      <guid>http://www.meteogalicia.es/web/predicion/maritima/mareasIndex.action?request_locale=gl&amp;idPorto=15&amp;data=05/11/2015</guid>
+      <dc:date>2015-11-04T23:00:00Z</dc:date>
+      <georss:point>42.40611267089844 -8.691110610961914</georss:point>
+      <Mareas:nomePorto descricion="Porto">Marín</Mareas:nomePorto>
+      <Mareas:idPorto descricion="IdPorto">15</Mareas:idPorto>
+      <Mareas:idPortoRef descricion="IdPortoRef">15</Mareas:idPortoRef>
+      <Mareas:dataPredicion formato="dd/MM/yyyy">05/11/2015</Mareas:dataPredicion>
+      <Mareas:mareas id="0" estado="Baixamar" hora="05:08" altura="1,4" idTipoMarea="0" />
+      <Mareas:mareas id="1" estado="Preamar" hora="11:31" altura="2,8" idTipoMarea="1" />
+      <Mareas:mareas id="2" estado="Baixamar" hora="17:58" altura="1,2" idTipoMarea="0" />
+    </item>
+    <item>
+      <title>Mareas en Ferrol para  xoves 05 de novembro</title>
+      <link>http://www.meteogalicia.es/web/predicion/maritima/mareasIndex.action?request_locale=gl&amp;idPorto=16&amp;data=05/11/2015</link>
+      <description>&lt;div  id="divestActual" class="datos"&gt;&lt;table class="tableloc"  width=250 border=1 bordercolor="#cfcfcf"&gt;&lt;thead&gt;&lt;th&gt;Estado&lt;/th&gt;&lt;th&gt;Hora&lt;/th&gt;&lt;th&gt;Altura&lt;/th&gt;&lt;/thead&gt;&lt;tr&gt;&lt;td&gt;Baixamar&lt;/td&gt;&lt;td&gt;05:24&lt;/td&gt;&lt;td&gt;1,6&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Preamar&lt;/td&gt;&lt;td&gt;11:50&lt;/td&gt;&lt;td&gt;3,0&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Baixamar&lt;/td&gt;&lt;td&gt;18:13&lt;/td&gt;&lt;td&gt;1,4&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;&lt;br/&gt;</description>
+      <pubDate>Wed, 04 Nov 2015 23:00:00 GMT</pubDate>
+      <guid>http://www.meteogalicia.es/web/predicion/maritima/mareasIndex.action?request_locale=gl&amp;idPorto=16&amp;data=05/11/2015</guid>
+      <dc:date>2015-11-04T23:00:00Z</dc:date>
+      <georss:point>43.476112365722656 -8.248332977294922</georss:point>
+      <Mareas:nomePorto descricion="Porto">Ferrol</Mareas:nomePorto>
+      <Mareas:idPorto descricion="IdPorto">16</Mareas:idPorto>
+      <Mareas:idPortoRef descricion="IdPortoRef">16</Mareas:idPortoRef>
+      <Mareas:dataPredicion formato="dd/MM/yyyy">05/11/2015</Mareas:dataPredicion>
+      <Mareas:mareas id="0" estado="Baixamar" hora="05:24" altura="1,6" idTipoMarea="0" />
+      <Mareas:mareas id="1" estado="Preamar" hora="11:50" altura="3,0" idTipoMarea="1" />
+      <Mareas:mareas id="2" estado="Baixamar" hora="18:13" altura="1,4" idTipoMarea="0" />
+    </item>
+  </channel>
+</rss>
+

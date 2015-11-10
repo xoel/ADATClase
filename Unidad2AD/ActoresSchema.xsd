@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+    <!--  <xsd:element name="Actores">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element ref="Actor" maxOccurs="unbounded"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="Actor">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="nome" type="xs:string"/>
+            <xsd:element name="sexo" type="xs:string"/>
+            <xsd:element ref="DataNacemento"/>
+          </xsd:sequence>
+          <xsd:attribute name="id" type="xs:string" use="required"/>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="DataNacemento">
+        <xsd:complexType>
+          <xsd:attribute name="formato" type="xs:string" use="required"/>
+        </xsd:complexType>
+      </xsd:element>
+    </xsd:schema>-->
+    <xs:element name="Actores">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="Actor" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="Actor">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="Nome"/>
+                <xs:element ref="Sexo"/>
+                <xs:element ref="DataNacemento"/>
+            </xs:sequence>
+            <xs:attribute name="id" type="xs:string" use="required" />
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="Nome" type="xs:string"/>
+    <xs:element name="Sexo" type="xs:string"/>
+    <xs:element name="DataNacemento">
+        <xs:complexType>
+            <xs:simpleContent>
+                <xs:extension base="xs:string">
+                    <xs:attribute name="formato" type="xs:string" use="required"/>
+                </xs:extension>
+            </xs:simpleContent>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
