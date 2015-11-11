@@ -7,8 +7,7 @@
 package U2A3Ej3;
 
 
-import java.util.logging.Level;
-import java.util.logging.Logger;
+
 import javax.xml.transform.Result;
 import javax.xml.transform.Source;
 import javax.xml.transform.TransformerConfigurationException;
@@ -50,7 +49,7 @@ public class U2A3Ej3 {
         } catch (TransformerConfigurationException ex) {
             System.err.println("Error al transformar: "+ex);
         } catch (TransformerException ex) {
-            System.err.println("Error al transformar con el manjeador: "+ex);;
+            System.err.println("Error al transformar con el manjeador: "+ex);
         }
         
     }
