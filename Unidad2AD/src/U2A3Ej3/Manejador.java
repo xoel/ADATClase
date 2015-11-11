@@ -2,14 +2,8 @@
  * Gestiona los eventos cuando se procesa un documento xml.
  * Se le indica al analizador lo que tiene que hacer.
  */
-package U2A2Ej3;
+package U2A3Ej3;
 
-import java.text.DateFormat;
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
-import java.util.Date;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 import org.xml.sax.Attributes;
 import org.xml.sax.SAXException;
 import org.xml.sax.helpers.DefaultHandler;
@@ -18,7 +12,7 @@ import org.xml.sax.helpers.DefaultHandler;
  *
  * @author Xvazqdios
  */
-public class ManejadorRt extends DefaultHandler {
+public class Manejador extends DefaultHandler {
 
     private boolean title = false;
     private boolean date = false;
@@ -64,18 +58,6 @@ public class ManejadorRt extends DefaultHandler {
             System.out.println("Titular: " + String.valueOf(ch, start, length));
             title = false;
         } else if (date) {
-            //TODO arreglar para poner la diferencia en horas entre la fecha actual y a de la noticia
-//            Date fechaActual = new Date();
-//            System.out.println(fechaActual);
-//            String fechaNoticia = String.valueOf(ch, 5, 19);
-//            fechaNoticia = fechaNoticia.replaceAll(" ", "-").trim();
-//            SimpleDateFormat formatoDelTexto = new SimpleDateFormat("dd-MM-yyyy-hh:mm:ss");
-//            try {
-//                Date d = formatoDelTexto.parse(fechaNoticia); 
-//                System.out.println("Fecha de la Publicación: " + d);
-//            }
-//                catch(ParseException e){ System.out.println("Error al pasar de String a Fecha");
-//            } 
             System.out.println("Fecha de la Publicación: " + String.valueOf(ch, 5, 19));            
             date = false;
         } else if (autor) {

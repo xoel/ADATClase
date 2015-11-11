@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+
+<alumnos>
+    <alumno>
+        <nome>Xoel</nome>
+        <nota>10</nota>
+    </alumno>
+    <alumno>
+        <nome>Torrente</nome>
+        <nota>2</nota>
+    </alumno>
+    <alumno>
+        <nome>Jesulin</nome>
+        <nota>2</nota>
+    </alumno>
+    <alumno>
+        <nome>Paquirrin</nome>
+        <nota>3</nota>
+    </alumno>
+    <alumno>
+        <nome>Falete</nome>
+        <nota>6</nota>
+    </alumno>
+</alumnos>
