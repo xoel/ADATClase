@@ -14,66 +14,73 @@ import org.xml.sax.helpers.DefaultHandler;
  */
 public class Manejador extends DefaultHandler {
 
-    private boolean title = false;
-    private boolean date = false;
-    private boolean autor = false;
-    private boolean descripcion = false;
+    private boolean nota = false;
+    private boolean alumno = false;
     private int countNot = 0;
+    private int countTot =0;
 
     @Override
     public void startDocument() throws SAXException {
 
-        System.out.println("*********** Titular de noticias de RT***********");
+        System.out.println("*********** NOTAS ***********");
         System.out.println("----------------------------------------------");
     }
 
     @Override
     public void endDocument() throws SAXException {
-        System.out.println("*********** Fin del Documento ***********");
+        System.out.println("*********** Total Alumnos "+countTot+"***********");
     }
 
     @Override
     public void startElement(String uri, String localName, String qName, Attributes attributes) throws SAXException {
 
-        if (localName.equalsIgnoreCase("title")) {
-            title = true;
-            countNot++;
-            System.out.println("==============Noticia " + countNot + "================");
+        if (localName.equalsIgnoreCase("Nota")) {
+            switch (attributes.getValue(0).toString()) {
+                case "9":
+                case "10":
+                    System.out.println("Sobresaliente");
+                    break;
+                case "8":
+                case "7":
+                    System.out.println("Notable");
+                    break;
+                case "6":
+                    System.out.println("Bien");
+                    break;
+                case "5":
+                    System.out.println("Suficiente");
+                    break;
+                default:
+                    System.out.println("Insuficiente");
+                    break;
+            }
+            nota = true;                        
         }
-        if (localName.equalsIgnoreCase("pubDate")) {
-            date = true;
-        }
-        if (qName.equalsIgnoreCase("dc:creator")) {
-            autor = true;
-        }
-        if (localName.equalsIgnoreCase("description")) {
-            descripcion = true;
+        if (localName.equalsIgnoreCase("Alumno")) {
+            alumno = true;
         }
     }
 
     @Override
     public void characters(char[] ch, int start, int length) throws SAXException {
-        if (title) {
-
-            System.out.println("Titular: " + String.valueOf(ch, start, length));
-            title = false;
-        } else if (date) {
-            System.out.println("Fecha de la Publicación: " + String.valueOf(ch, 5, 19));            
-            date = false;
-        } else if (autor) {
-            System.out.println("Autor: " + String.valueOf(ch, start, length));
-            autor = false;
-        } else if (descripcion) {
-            System.out.println("Descripcion: " + String.valueOf(ch, start, length));
-            descripcion = false;
+        if(alumno){
+            System.out.println("Alumno: " + String.valueOf(ch, start, length));
+            alumno=false;            
+            countNot++;
+            countTot++;
         }
     }
 
     @Override
     public void endElement(String uri, String localName, String name) throws SAXException {
-        if (localName.equalsIgnoreCase("item")) {
-            System.out.println();
+        if(nota){
+            System.out.println("Num alumnos: "+countNot);
+            countNot=0;
+            nota=false;
+            System.out.println("--------------------------------------------------");
+             
         }
+       
     }
 
 }

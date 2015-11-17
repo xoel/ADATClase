@@ -25,8 +25,8 @@ public class U2A3Ej2 {
         String hojaEstilos = "C:\\Users\\usuario\\Documents\\NetBeansProjects\\ADATClase\\ADATClase\\Unidad2AD\\src\\U2A3Ej2\\EstiloHardware.xsl";
         //fichero que contiene el documento XML
         String datosActores = "C:\\Users\\usuario\\Documents\\NetBeansProjects\\ADATClase\\ADATClase\\Unidad2AD\\\\src\\U2A3Ej2\\Hardware.xml";
-        //fichero HTML
-        String paginaHTML = "C:\\Users\\usuario\\Documents\\NetBeansProjects\\ADATClase\\ADATClase\\Unidad2AD\\\\src\\U2A3Ej2\\Hardware2.xml";
+        //fichero XML
+        String paginaXML= "C:\\Users\\usuario\\Documents\\NetBeansProjects\\ADATClase\\ADATClase\\Unidad2AD\\\\src\\U2A3Ej2\\Hardware2.xml";
         TransformerFactory transFact;
 
         //Instanciamos la factoria
@@ -43,7 +43,7 @@ public class U2A3Ej2 {
              * aplicado la plantilla objetos. */
             trans = transFact.newTransformer(estilos);
             // creamos fichero para escribir en modo texto
-            FileWriter sw = new FileWriter(paginaHTML);
+            FileWriter sw = new FileWriter(paginaXML);
             // escribimos todo el arbol en el fichero
             StreamResult sr = new StreamResult(sw);
             

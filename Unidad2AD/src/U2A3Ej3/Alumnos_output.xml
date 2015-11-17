@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><Notas>
+    <Nota valor="6">
+        <Alumno>Falete</Alumno>
+    </Nota>
+    <Nota valor="3">
+        <Alumno>Paquirrin</Alumno>
+    </Nota>
+    <Nota valor="2">
+        <Alumno>Torrente</Alumno>
+        <Alumno>Jesulin</Alumno>
+    </Nota>
+    <Nota valor="10">
+        <Alumno>Xoel</Alumno>
+    </Nota>
+</Notas>
