@@ -1,0 +1,22 @@
+<ListaCorredores>
+  <Corredor dorsal="1">
+    <nombre>xoel</nombre>
+    <tiempo>10</tiempo>
+  </Corredor>
+  <Corredor dorsal="2">
+    <nombre>Pablo</nombre>
+    <tiempo>11</tiempo>
+  </Corredor>
+  <Corredor dorsal="3">
+    <nombre>Bolt</nombre>
+    <tiempo>9</tiempo>
+  </Corredor>
+  <Corredor dorsal="4">
+    <nombre>Ala Akbhar</nombre>
+    <tiempo>12</tiempo>
+  </Corredor>
+  <Corredor dorsal="5">
+    <nombre>Permesga</nombre>
+    <tiempo>8</tiempo>
+  </Corredor>
+</ListaCorredores>
