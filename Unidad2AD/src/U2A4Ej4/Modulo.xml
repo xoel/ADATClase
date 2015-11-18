@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+
+<Modulo xsi:noNamespaceSchemaLocation="Modulo.xsd" xsml:xsl="http://www.w3.org/2001/XMLSchema-instance">
+    <Nome>Redes de Area Local</Nome>
+    <contidos>
+        <Bloque sesións="60" nume ="1">
+            <Titulo>Sistemas de comunicacións</Titulo>
+            <Descripción>Aspectos físicos, protocolos e arquitecturas de redes</Descripción>
+        </Bloque>
+        <Bloque sesións="50" nume ="2">
+            <Titulo>Redes de Datos</Titulo>
+            <Descripción>interconexiones y esas movidas</Descripción>
+        </Bloque>
+        <Bloque sesións="90" nume ="3">
+            <Titulo>Sistemas de areas locales</Titulo>
+            <Descripción>xestion area local, gordo granudo</Descripción>
+        </Bloque>
+        <Bloque sesións="80" nume ="4">
+            <Titulo>Servizo de interne</Titulo>
+            <Descripción>Gatos, memes y gordos cayendose</Descripción>
+        </Bloque>
+    </contidos>
+</Modulo>
