@@ -17,7 +17,7 @@ import javax.xml.bind.annotation.*;
 @XmlRootElement(name = "Empresa")
 @XmlType(propOrder = {"cif","nombre","lista"})
 public class Empresa {
-    
+    @XmlElement(name="Nombre")
     private String nombre;
     @XmlAttribute(name="CIF")
     private String cif;    

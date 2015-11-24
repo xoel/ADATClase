@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="Modulo">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Nome" type="xs:string"/>
+        <xs:element ref="contidos"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="contidos">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Bloque" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Bloque">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Titulo" type="xs:string"/>
+        <xs:element name="Descripción" type="xs:string"/>
+      </xs:sequence>
+      <xs:attribute name="num" type="xs:string" use="required"/>
+      <xs:attribute name="sesións" type="xs:string" use="required"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+

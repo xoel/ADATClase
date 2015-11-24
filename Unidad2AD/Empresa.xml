@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Empresa CIF="76930837t">
+    <Nombre>Xoia Software Development</Nombre>
     <Empleados>
         <Empleado>
             <Dni>76930837t</Dni>

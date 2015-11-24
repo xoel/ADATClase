@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Personas>
+    <Estudiante>
+        <Nombre>Angel Rodriguez</Nombre>
+        <Edad>23</Edad>
+        <Informacion>
+            <Direccion>
+                <Calle>Luna</Calle>
+                <Localidad>Pontevedra</Localidad>
+                <Numero>6</Numero>
+                <Provincia>Pontevedra</Provincia>
+            </Direccion>
+            <Telefonos>96871133 986865665</Telefonos>
+        </Informacion>
+        <Carrera>Santiago</Carrera>
+        <Universidad>Informatica</Universidad>
+    </Estudiante>
+    <Trabajador>
+        <Nombre>Manuel Sanchez</Nombre>
+        <Edad>45</Edad>
+        <Informacion>
+            <Direccion>
+                <Calle>Nube</Calle>
+                <Localidad>pontevedra</Localidad>
+                <Numero>16</Numero>
+                <Provincia>pontevedra</Provincia>
+            </Direccion>
+            <Telefonos>96871133 986865665</Telefonos>
+        </Informacion>
+        <Empresa>El tornillo</Empresa>
+        <Puesto>Gerente</Puesto>
+        <Salario>2000.0</Salario>
+    </Trabajador>
+</Personas>
