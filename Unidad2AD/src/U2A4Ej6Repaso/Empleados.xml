@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+
+<Empleados>
+    <Separador>%</Separador>
+    <Empleado>
+        <Nombre>Luis Perez Esteban</Nombre>
+        <Cargo>Director de Proyecto</Cargo>
+        <Direccion>Sol 3, 36000 Pontevedra</Direccion>
+        <Aumento>300</Aumento>
+    </Empleado>
+    <Empleado>
+        <Nombre>Maria Rodriguez Ramirez</Nombre>
+        <Cargo>Directora de Tienda</Cargo>
+        <Direccion>Luna 5, 36002 Pontevedra</Direccion>
+        <Aumento>200</Aumento>
+    </Empleado>
+    <Empleado>
+        <Nombre>Estaban tato</Nombre>
+        <Cargo>Gerente</Cargo>
+        <Direccion>The knick, 36004 Boston</Direccion>
+        <Aumento>175</Aumento>
+    </Empleado>
+</Empleados>

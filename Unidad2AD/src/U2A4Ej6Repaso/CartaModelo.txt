@@ -1,0 +1,14 @@
+%Nombre%
+%cargo%
+%Direccion%
+
+        Estimado %Nombre%:
+        
+        Este año 2012, nuestra empresa ha aumentado sus ventas en un 40%, gracias 
+        al esfuerzo de todos, por lo que, en agradecimiento por su labor, hemos
+        decidido aumentar su sueldo en %Aumento% a partir del proximo mes.
+
+        Un saludo:
+                                            25/11/2015
+                                            Xoel Vazquez
+                                            Presidente
